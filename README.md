@@ -1,9 +1,5 @@
-# Mapping_Earthquakes
+# Earthquakes_Mapping
 Mapping Earthquakes with GeoJSON and APIs
-
-# Visualizing-Data-with-Leaflet
-
-https://bigbluey.github.io/Visualizing-Data-with-Leaflet/
 
 ## Background
 
@@ -11,13 +7,20 @@ United States Geological Survey, or USGS, is responsible for providing scientifi
 
 Build a new set of tools that will allow the USGS to visualize their earthquake data. The USGS collects a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding..) on issues facing our planet.
 
-
 ## Objectives
 
+ - The purpose of this project is to visually show the differences between the magnitudes of earthquakes all over the world for the last seven days.
+
+## Software/Tools
+ - VS Code, Chrome web browser, github.io, Mapbox API key for custom map applications, JavaScript Object Notation (JSON) data
+ - The data is provided by United States Geological Survey [USGS Earthquakes real time data](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
+
+## Tasks
+ - To complete this project, use a URL for GeoJSON earthquake data from the USGS website and retrieve geographical coordinates and the magnitudes of earthquakes for the last seven days. Then add the data to a map.
 
 ### Level 1: Basic Visualization
 
-Visualize an earthquake data set
+ - Visualize an earthquake data set
 
 * Get the Data Set:
 
