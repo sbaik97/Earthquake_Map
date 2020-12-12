@@ -21,19 +21,21 @@ Build a new set of tools that will allow the USGS to visualize their earthquake 
 
 ### Task 1: Add Tectonic Plate Data
 
- -Using the  JavaScript, Leafet.js, and geoJSON data, create the tectonic plate data using d3.json(), the data using the geoJSON() layer, set the tectonic plate LineString data to stand out on the map, and add the tectonic plate data to the overlay object with the earthquake data.
+ - Using the  JavaScript, Leafet.js, and geoJSON data, create the tectonic plate data using d3.json(), the data using the geoJSON() layer, set the tectonic plate LineString data to stand out on the map, and add the tectonic plate data to the overlay object with the earthquake data.
 
  - Codes
-    - [HTML File](/Earthquake_Challenge/index.html)
+    - [HTML File](/Challenge/tectonic_plate/index.html)
 
-    - [JavaScript File](/Earthquake_Challenge/static/js/logic.js)
+    - [JavaScript File](/Challenge/tectonic_plate/static/js/tectonic_plate_logic.js)
 
-    - [CSS File](/Earthquake_Challenge/static/css/style.css)
+    - [CSS File](/Challenge/tectonic_plate/static/css/style.css)
 
-  - map ![](Images/earthquake_map.png)
+    - map 
+    
+    ![Earthquake and tectonic_plate map](/Challenge/tectonic_plate/static/data/tectonic_plate_image1.png)
 
 
-  - results : Each earthquake will be visually represented by a circle and color, where a higher magnitude will have a larger diameter and will be darker in color. There are more color information in legend, which is in the right bottom of page. And the tectonic layer group variable is added to the map.
+    - results : Each earthquake will be visually represented by a circle and color, where a higher magnitude will have a larger diameter and will be darker in color. There are more color information in legend, which is in the right bottom of page. And the tectonic layer group variable is added to the map.
 
 
 ### Task 2: Add Major Earthquake Data
