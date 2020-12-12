@@ -16,26 +16,27 @@ Build a new set of tools that will allow the USGS to visualize their earthquake 
  - The data is provided by United States Geological Survey [USGS Earthquakes real time data](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
 
 ## Tasks
- - To complete this project, use a URL for GeoJSON earthquake data from the USGS website and retrieve geographical coordinates and the magnitudes of earthquakes for the last seven days. Then add the data to a map.
 
-### Level 1: Basic Visualization
+ - To complete this project, use a URL for GeoJSON earthquake data from the USGS website and retrieve geographical coordinates and the magnitudes of earthquakes for the last seven days. Then create the earthquake data in relation to the tectonic plates’ location on the earth, and all the earthquakes with a magnitude greater than 4.5 on the map, and add the data on a third map.
 
- - Visualize an earthquake data set
+### Task 1: Add Tectonic Plate Data
 
-* Get the Data Set:
+ -Using the  JavaScript, Leafet.js, and geoJSON data, create the tectonic plate data using d3.json(), the data using the geoJSON() layer, set the tectonic plate LineString data to stand out on the map, and add the tectonic plate data to the overlay object with the earthquake data.
 
-    * The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and pick a data set to visualize. When a data set is clicked on, for example 'All Earthquakes from the Past 7 Days', will be given a JSON representation of that data. Use the URL of this JSON to pull in the data for the visualization
+ - Codes
+    - [HTML File](/Earthquake_Challenge/index.html)
 
-* Import & Visualize the Data:
+    - [JavaScript File](/Earthquake_Challenge/static/js/logic.js)
 
-    * Create a map using Leaflet that plots all of the earthquakes from the data set based on their longitude and latitude
-    * The data markers should reflect the magnitude of the earthquake in their size and color. Earthquakes with higher magnitudes should appear larger and darker in color
-    * Include popups that provide additional information about the earthquake when a marker is clicked
-    * Create a legend that will provide context for the map data
+    - [CSS File](/Earthquake_Challenge/static/css/style.css)
 
-![](Images/earthquake_map.png)
+  - map ![](Images/earthquake_map.png)
 
-### Level 2: More Data
+
+  - results : Each earthquake will be visually represented by a circle and color, where a higher magnitude will have a larger diameter and will be darker in color. There are more color information in legend, which is in the right bottom of page. And the tectonic layer group variable is added to the map.
+
+
+### Task 2: Add Major Earthquake Data
 
 The USGS wants to plot a second data set on the map to illustrate the relationship between tectonic plates and seismic activity. Pull in a second data set and visualize it along side the original set of data. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>
 
@@ -46,3 +47,6 @@ The USGS wants to plot a second data set on the map to illustrate the relationsh
 * Add layer controls to the map
 
 ![](Images/earthquake_fault_overlay.png)
+
+
+### Task 3: Add an Additional Map
