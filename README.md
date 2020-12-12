@@ -36,7 +36,7 @@ Build a new set of tools that will allow the USGS to visualize their earthquake 
     ![Earthquake and tectonic_plate map](/Challenge/tectonic_plate/static/data/tectonic_plate_image1.png)
 
 
-  - Results : Each earthquake will be visually represented by a circle and color, where a higher magnitude will have a larger diameter and will be darker in color. There are more color information in legend, which is in the right bottom of page. And the tectonic layer group variable is added to the map.
+#### Results : Each earthquake will be visually represented by a circle and color, where a higher magnitude will have a larger diameter and will be darker in color. There are more color information in legend, which is in the right bottom of page. And the tectonic layer group variable is added to the map.
 
 
 ### Task 2 &3 : Add Major Earthquake Data and third mapstyle
@@ -56,6 +56,6 @@ Build a new set of tools that will allow the USGS to visualize their earthquake 
     ![Major Earthquake Data and thrid map style](/Challenge/Major_Earthquake/static/data/Major_EQs_thirdLayer.png)
     
     
-  - Results :  On the upper right side of map, a layer control would allow users change from different map styles(Street Mode, Satellite-Street Mode, dark Mode), and allow users to control which overlays (Earthquake cirle markers, Tectonic plates, and Major Earthquake).
+#### Results :  On the upper right side of map, a layer control would allow users change from different map styles(Street Mode, Satellite-Street Mode, dark Mode), and allow users to control which overlays (Earthquake cirle markers, Tectonic plates, and Major Earthquake).
 
 
