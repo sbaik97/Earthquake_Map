@@ -30,12 +30,12 @@ Build a new set of tools that will allow the USGS to visualize their earthquake 
 
     - [CSS File](/Challenge/tectonic_plate/static/css/style.css)
 
-    - map 
+  - map 
     
     ![Earthquake and tectonic_plate map](/Challenge/tectonic_plate/static/data/tectonic_plate_image1.png)
 
 
-    - results : Each earthquake will be visually represented by a circle and color, where a higher magnitude will have a larger diameter and will be darker in color. There are more color information in legend, which is in the right bottom of page. And the tectonic layer group variable is added to the map.
+  - results : Each earthquake will be visually represented by a circle and color, where a higher magnitude will have a larger diameter and will be darker in color. There are more color information in legend, which is in the right bottom of page. And the tectonic layer group variable is added to the map.
 
 
 ### Task 2: Add Major Earthquake Data
